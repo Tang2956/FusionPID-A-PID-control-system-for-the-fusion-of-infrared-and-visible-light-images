@@ -1,0 +1,39 @@
+untitled_restored_from_autosave_sfun.obj
+c2_untitled_restored_from_autosave.obj
+c4_untitled_restored_from_autosave.obj
+c5_untitled_restored_from_autosave.obj
+c7_untitled_restored_from_autosave.obj
+c9_untitled_restored_from_autosave.obj
+untitled_restored_from_autosave_sfun_registry.obj
+-LD:\PROGRA~2\POLYSP~1\extern\lib\win64\mingw64
+D:\PROGRA~2\POLYSP~1\extern\lib\win64\microsoft\libmwblas.lib
+D:\PROGRA~2\POLYSP~1\extern\lib\win64\mingw64\libmwblas.lib
+D:\PROGRA~2\POLYSP~1\extern\lib\win64\microsoft\libmwlapack.lib
+D:\PROGRA~2\POLYSP~1\extern\lib\win64\mingw64\libmwlapack.lib
+
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwbwpackctbb.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwbwunpackctbb.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwedgesobelprewitt_tbb.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwedgethinning_tbb.lib" 
+"-LD:\Program Files\Polyspace\extern\lib\win64\mingw64" "-llibmwippfilter" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwmorphop_flat_tbb.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwimfilter.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwmorphop_packed.lib"
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\sf_runtime.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmx.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmex.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmat.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libfixedpoint.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libut.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwstringutil.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwmathutil.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libemlrt.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwsl_log_load_blocks.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwsimulink.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwsl_sfcn_cov_bridge.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libcovrt.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwsl_simtarget_core.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwsl_simtarget_instrumentation.lib" 
+"D:\Program Files\Polyspace\extern\lib\win64\mingw64\libmwslexec_simlog.lib" 
+"-LD:\Program Files\Polyspace\bin\win64" "-llibmwipp"
+

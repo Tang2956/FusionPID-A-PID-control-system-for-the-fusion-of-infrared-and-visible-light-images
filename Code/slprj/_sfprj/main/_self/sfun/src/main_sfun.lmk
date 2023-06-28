@@ -1,0 +1,32 @@
+CC     = "E:\Matlab_2021awin00\MATLAB\sys\lcc64\lcc64\bin\lcc64.exe"
+LD     = "E:\Matlab_2021awin00\MATLAB\sys\lcc64\lcc64\bin\lcclnk64.exe"
+LIBCMD = "E:\Matlab_2021awin00\MATLAB\sys\lcc64\lcc64\bin\lcclib64.exe"
+CFLAGS = -dll -noregistrylookup  -c -Zp8 -DLCC_WIN64 -DMATLAB_MEX_FILE -nodeclspec -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -DMW_HAVE_LAPACK_DECLS
+LDFLAGS = -s -dll -L"E:\Matlab_2021awin00\MATLAB\sys\lcc64\lcc64\lib64" -entry LibMain -map sfun.map 
+LIBFLAGS = 
+
+OBJECTS = \
+	"main_sfun.obj"\
+	"c2_main.obj"\
+	"main_sfun_registry.obj"\
+	"half_type.obj"\
+	"lccstub.obj"\
+	"c_mexapi_version.obj"\
+
+INCLUDE_PATH= -I"E:\Matlab_2021awin00\MATLAB\extern\include"  -I"E:\Matlab_2021awin00\MATLAB\simulink\include"  -I"E:\Matlab_2021awin00\MATLAB\simulink\include\sf_runtime"  -I"E:\Matlab_2021awin00\MATLAB\stateflow\c\mex\include"  -I"E:\Matlab_2021awin00\MATLAB\rtw\c\src"  -I"E:\VIF\pid\MATLAB code\slprj\_sfprj\main\_self\sfun\src"  -I"E:\VIF\pid\matlab code\slprj\_sfprj\main\_self\sfun\src"  -I"E:\VIF\pid\matlab code"  -I"E:\Matlab_2021awin00\MATLAB\sys\lcc64\lcc64\include64" 
+ 
+
+main_sfun.mexw64 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o main_sfun.mexw64 @main_sfun.lmko
+main_sfun.obj :	"E:\VIF\pid\MATLAB code\slprj\_sfprj\main\_self\sfun\src\main_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "E:\VIF\pid\MATLAB code\slprj\_sfprj\main\_self\sfun\src\main_sfun.c"
+c2_main.obj :	"E:\VIF\pid\MATLAB code\slprj\_sfprj\main\_self\sfun\src\c2_main.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "E:\VIF\pid\MATLAB code\slprj\_sfprj\main\_self\sfun\src\c2_main.c"
+main_sfun_registry.obj :	"E:\VIF\pid\MATLAB code\slprj\_sfprj\main\_self\sfun\src\main_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "E:\VIF\pid\MATLAB code\slprj\_sfprj\main\_self\sfun\src\main_sfun_registry.c"
+half_type.obj :	"E:\VIF\pid\MATLAB code\slprj\_sfprj\main\_self\sfun\src\half_type.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "E:\VIF\pid\MATLAB code\slprj\_sfprj\main\_self\sfun\src\half_type.c"
+lccstub.obj :	"E:\Matlab_2021awin00\MATLAB\sys\lcc64\lcc64\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "E:\Matlab_2021awin00\MATLAB\sys\lcc64\lcc64\mex\lccstub.c"
+c_mexapi_version.obj :	"E:\Matlab_2021awin00\MATLAB\extern\version\c_mexapi_version.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "E:\Matlab_2021awin00\MATLAB\extern\version\c_mexapi_version.c"

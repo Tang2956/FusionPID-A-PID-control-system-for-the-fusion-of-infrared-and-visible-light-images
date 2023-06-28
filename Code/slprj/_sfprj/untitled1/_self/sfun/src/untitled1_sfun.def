@@ -1,0 +1,4 @@
+LIBRARY untitled1_sfun.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion

@@ -1,0 +1,4 @@
+LIBRARY main_sfun.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
