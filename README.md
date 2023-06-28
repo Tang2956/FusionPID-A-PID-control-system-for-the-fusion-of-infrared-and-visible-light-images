@@ -1,2 +1,6 @@
-# FusionPID-A-PID-control-system-for-the-fusion-of-infrared-and-visible-light-images
-This study proposes a novel fusion framework based on cybernetics, referred to as FusionPID, that utilizes a proportional integral differential (PID) control system to fuse infrared and visible images.
+User Guide:
+1. If the MATLAB version does not match, please replace it with MATLAB2021.
+2. The main function is main.slx.
+3, please add the mean-shift file to the matlab path.
+4. No Spaces are allowed in the path of each file.
+5, If you encounter any problems, please contact dong_linlu@163.com.
